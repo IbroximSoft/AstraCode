@@ -11,6 +11,8 @@
 		BE4332CE2C5BBDA400ECCEDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4332CD2C5BBDA400ECCEDB /* ContentView.swift */; };
 		BE4332D02C5BBDA500ECCEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4332CF2C5BBDA500ECCEDB /* Assets.xcassets */; };
 		BE4332D32C5BBDA500ECCEDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4332D22C5BBDA500ECCEDB /* Preview Assets.xcassets */; };
+		BE503C882C6CC5DD00E81D9E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE503C872C6CC5DD00E81D9E /* WebView.swift */; };
+		BE503C8A2C6CCB6E00E81D9E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE503C892C6CCB6E00E81D9E /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BE4332CD2C5BBDA400ECCEDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE4332CF2C5BBDA500ECCEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4332D22C5BBDA500ECCEDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE503C872C6CC5DD00E81D9E /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		BE503C892C6CCB6E00E81D9E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				BE4332CD2C5BBDA400ECCEDB /* ContentView.swift */,
 				BE4332CF2C5BBDA500ECCEDB /* Assets.xcassets */,
 				BE4332D12C5BBDA500ECCEDB /* Preview Content */,
+				BE503C872C6CC5DD00E81D9E /* WebView.swift */,
+				BE503C892C6CCB6E00E81D9E /* Network.swift */,
 			);
 			path = AstraCode;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE503C882C6CC5DD00E81D9E /* WebView.swift in Sources */,
 				BE4332CE2C5BBDA400ECCEDB /* ContentView.swift in Sources */,
+				BE503C8A2C6CCB6E00E81D9E /* Network.swift in Sources */,
 				BE4332CC2C5BBDA400ECCEDB /* AstraCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
