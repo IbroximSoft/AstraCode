@@ -18,6 +18,11 @@ struct WebView: UIViewRepresentable {
 
     func updateUIView(_ webView: WKWebView, context: Context) {
         let request = URLRequest(url: url)
+        let urlString = url.absoluteString
+        if (urlString != "https://app.boshqar.com/"){
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+        print(url)
         webView.load(request)
     }
 }

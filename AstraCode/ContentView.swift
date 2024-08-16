@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-             
+            
             if (true) {
                 VStack{
                     WebView(url: URL(string: "https://app.boshqar.com/")!)
@@ -25,19 +25,28 @@ struct ContentView: View {
             }
             else {
                 VStack {
+                    
                     Text("No internet connection")
-                        .font(.largeTitle)
-                        .padding()
+                        .font(.title3)
+                        .multilineTextAlignment(.center)
+                    
+                    Text("Internet bilan aloqa yo'q")
+                        .font(.title3)
                         .padding()
                         .multilineTextAlignment(.center)
-                    Button("Reload") {
+                    
+                    Text("Нет подключения к Интернету")
+                        .font(.title3)
+                        .multilineTextAlignment(.center)
+                    
+                    Button("Tekshirish") {
                         reload()
                     }
                     .padding()
                 }
             }
         }
-        .ignoresSafeArea()
+        .safeAreaPadding(0)
     }
 }
 
